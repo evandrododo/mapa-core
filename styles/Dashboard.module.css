@@ -1,0 +1,43 @@
+.container {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.table {
+  min-width: 90vw;
+}
+.table table tbody td{
+  border: none;
+  border-bottom: 1px solid #444;
+}
+
+.table th,
+.table tbody tr:hover ,
+.table tbody tr td {
+    color: white;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar button {
+  margin: 0 1rem;
+}
+
+.row {
+  cursor: pointer;
+}
+
+tbody tr.row:hover {
+  background-color: #0f0f0f;
+}
+
+.deletebutton:hover {
+  color: #ee2222;
+}
