@@ -8,7 +8,7 @@ export default function Cadastro() {
   const { id } = router.query
   return (
     <div className={styles.container}>
-      <FormUsuario id={id.toString()}/>
+      <FormUsuario id={id?.toString()}/>
     </div>
   )
 }
